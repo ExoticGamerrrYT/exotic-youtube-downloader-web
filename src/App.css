@@ -1,0 +1,189 @@
+/*PALETTE: https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429*/
+
+body {
+  margin: 0;
+  font-family: 'Inter Variable', sans-serif;
+  background-color: #edf2f4; /* Background color */
+  color: #2b2d42; /* Primary text color */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #2b2d42; /* Dark header background */
+  padding: 20px;
+  color: #edf2f4; /* Light text color */
+}
+
+.App-main {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8d99ae; /* Light grey hero background */
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.bold {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.initial-question {
+  margin: 0;
+  color: #2b2d42; /* Primary text color */
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.initial-answer {
+  color: #2b2d42; /* Primary text color */
+  font-size: 24px;
+}
+
+.open-source-tag {
+  font-size: 19px;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #ef233c; /* Bright red button background */
+  color: #edf2f4; /* Light text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #d90429; /* Darker red on hover */
+}
+
+.cta-icon {
+  margin-right: 8px;
+}
+
+.hero-image {
+  max-width: 40%;
+  border-radius: 10px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.feature {
+  max-width: 30%;
+  text-align: left;
+  background-color: #edf2f4; /* Light color background for features */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.feature h3 {
+  color: #ef233c; /* Bright red for feature titles */
+}
+
+.download-section {
+  margin: 40px 0;
+}
+
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #ef233c; /* Bright red download button */
+  color: #edf2f4; /* Light text color */
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 22px;
+  text-decoration: none;
+  border: 8px solid #ef233c; /* Initial border color matching the button background */
+  transition: background-color 0.3s, border-color 0.3s, font-size 0.3s; /* Smooth transition */
+}
+
+.download-button:hover {
+  background-color: #d90429; /* Darker red on hover */
+  border-color: #d90429; /* Border color changes to match the hover background color */
+  font-size: 30px; /* Increase font size on hover */
+}
+
+.download-button svg {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.App-footer {
+  background-color: #2b2d42; /* Dark footer background */
+  padding: 10px;
+  color: #edf2f4; /* Light text color */
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+@media (max-width: 500px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .hero-image {
+    max-width: 80%;
+    margin-top: 20px;
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature {
+    max-width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .initial-question {
+    margin: 0;
+    color: #2b2d42; /* Primary text color */
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  .initial-answer {
+    color: #2b2d42; /* Primary text color */
+    font-size: 20px;
+  }
+
+  .open-source-tag {
+    font-size: 16px;
+  }
+}
