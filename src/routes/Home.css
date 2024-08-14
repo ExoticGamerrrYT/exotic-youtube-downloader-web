@@ -1,0 +1,24 @@
+.initial-question {
+  margin: 0;
+  color: #2b2d42; /* Primary text color */
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.initial-answer,
+.open-source-tag {
+  color: #2b2d42; /* Primary text color */
+}
+
+.initial-answer {
+  font-size: 24px;
+}
+
+.open-source-tag {
+  font-size: 19px;
+}
+
+.bold {
+  font-size: 30px;
+  font-weight: 900;
+}
