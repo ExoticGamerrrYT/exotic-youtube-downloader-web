@@ -15,7 +15,11 @@ function Navbar() {
         <Link to="/downloads" className="navbar-link">
           Downloads
         </Link>
-        <a href="your-repo-url" className="navbar-link">
+        <a
+          target="_blank"
+          href="https://github.com/ExoticGamerrrYT/youtube-video-downloader"
+          className="navbar-link"
+        >
           <FaGithub size={24} />
         </a>
       </div>

@@ -9,6 +9,10 @@ body {
   min-height: 100vh;
 }
 
+code {
+  font-family: 'JetBrains Mono Variable', monospace;
+}
+
 .App {
   flex: 1;
   display: flex;
